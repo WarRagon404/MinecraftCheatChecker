@@ -5,9 +5,9 @@
 [![Status](https://img.shields.io/badge/Status-Proof_of_Concept-yellow.svg?style=for-the-badge)](https://en.wikipedia.org/wiki/Proof_of_concept)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-**A lightweight PowerShell tool for quick scanning of the RUST game client for potential unauthorized software traces.**
+**A lightweight PowerShell tool for quick scanning of the Minecraft game client for potential unauthorized software traces.**
 
-This repository contains a PowerShell script designed for rapid, surface-level scanning of **RUST** game files and environment to detect inconsistencies and "red flags" that *may* indicate the presence of cheats or macros.
+This repository contains a PowerShell script designed for rapid, surface-level scanning of **Minecraft** game files and environment to detect inconsistencies and "red flags" that *may* indicate the presence of cheats or macros.
 
 &gt; **⚠️ Important Notice:** This tool is a **Proof of Concept (PoC)** intended for basic visual inspection. It is not a full-fledged anti-cheat solution and does not guarantee 100% detection. Its primary purpose is quick preliminary analysis.
 
@@ -20,11 +20,11 @@ Run the checker with a single command in PowerShell.
 Copy and execute the following command:
 ## **General**
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/RustCheatChecker/refs/heads/main/CheatCheckerRust.ps1' -UseBasicParsing).Content
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/MinecraftCheatChecker/refs/heads/main/CheatCheckerMinecraft.ps1' -UseBasicParsing).Content
 ```
 ## **ALT2**
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/RustCheatChecker/refs/heads/main/CheatCheckerRust(ALT2).ps1' -UseBasicParsing).Content
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/MinecraftCheatChecker/refs/heads/main/CheatCheckerMinecraft(ALT2).ps1' -UseBasicParsing).Content
 ```
 ## **⚖️ Disclaimer**
 
