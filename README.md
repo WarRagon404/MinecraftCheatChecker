@@ -20,7 +20,7 @@ Run the checker with a single command in PowerShell.
 Copy and execute the following command:
 ## **General**
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/MinecraftCheatChecker/refs/heads/main/CheatCheckerMinecraft.ps1' -UseBasicParsing).Content
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/MinecraftCheatChecker/refs/heads/main/MinecraftCheatChecker.ps1' -UseBasicParsing).Content
 ```
 ## **ALT2**
 ```powershell
