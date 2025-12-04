@@ -24,7 +24,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubus
 ```
 ## **ALT2**
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/MinecraftCheatChecker/refs/heads/main/CheatCheckerMinecraft(ALT2).ps1' -UseBasicParsing).Content
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/WarRagon404/MinecraftCheatChecker/refs/heads/main/MinecraftCheckerRust(ALT2).ps1' -UseBasicParsing).Content
 ```
 ## **⚖️ Disclaimer**
 
